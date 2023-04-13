@@ -1,6 +1,5 @@
 import requests
 import hashlib
-import sys
 # Emre Kin 
 # <yemrekin4@gmail.com>
 #with this code you can look how many time your password hacked
@@ -40,4 +39,4 @@ def main(args):
 
 if __name__ == '__main__':
     print('give the name of passwords file')
-    sys.exit(main(sys.argv[1:]))
+    sys.exit(main(input('your password :'))
