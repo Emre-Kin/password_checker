@@ -39,4 +39,4 @@ def main(args):
 
 if __name__ == '__main__':
     print('give the name of passwords file')
-    sys.exit(main(input('your password :'))
+    main(input('your password :')
